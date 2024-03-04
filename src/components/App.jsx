@@ -1,13 +1,12 @@
-import css from "./App.module.css";
-import { ContactForm } from "./ContactForm/ContactForm";
-import { ContactList } from "./ContactList/ContactList";
-import { Filter } from "./Filter/Filter";
+import css from './App.module.css';
+import { ContactForm } from './ContactForm/ContactForm';
+import { Filter } from './Filter/Filter';
+import { ContactList } from './ContactList/ContactList';
 
 export const App = () => {
-
   // const handleSubmit = (e) => {
   //   e.preventDefault();
-    
+
   //   const form = e.currentTarget;
   //   const name = form.elements.name.value;
   //   const number = form.elements.number.value;
@@ -25,7 +24,7 @@ export const App = () => {
   //   const filterPhrase = e.currentTarget.value;
   //   setFilter(filterPhrase);
   // }
-  
+
   // const includesName = (name) => {
   //   if (contacts.some(contact => contact.name === name)) {
   //     return true;
@@ -34,7 +33,6 @@ export const App = () => {
   //   }
   // }
 
-  
   return (
     <div className={css.phonebook}>
       <h1>Phonebook</h1>
